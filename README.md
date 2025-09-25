@@ -37,16 +37,16 @@ Si prefieres compilarla tú mismo o hacer modificaciones:
 
 1. En tu PWA genera un enlace con el esquema personalizado `nfcbridgeapp://scan` y la URL de retorno:
 
-   ```
+```
    nfcbridgeapp://scan?url_destino=https://midominio.com/endpoint
-   ```
+```
 2. Cuando el usuario toque ese enlace, se abrirá NFC Bridge App.
 3. La app activará el lector NFC y obtendrá los datos de la etiqueta.
 4. NFC Bridge App abrirá la `url_destino` añadiendo parámetros GET:
 
-   ```
-   https://midominio.com/endpoint?uid=UID_DE_LA_TAG&techs=LISTA_DE_TECNOLOGIAS
-   ```
+```
+   https://midominio.com/endpoint?UID=UID_DE_LA_TAG&TECHS=LISTA_DE_TECNOLOGIAS
+```
 5. En tu backend, procesa el UID recibido como necesites.
 
 ---
@@ -66,7 +66,7 @@ UID:02534D1AC40000;TECHS:android.nfc.tech.IsoDep,android.nfc.tech.NfcA
 
 ## 📄 Licencia
 
-Este proyecto está licenciado bajo la **[MIT License](LICENSE)**.
+Este proyecto está licenciado bajo la [MIT License](LICENSE).
 Puedes usarlo, copiarlo y modificarlo libremente bajo los términos de esa licencia.
 
 ---
