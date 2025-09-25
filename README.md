@@ -23,9 +23,9 @@ La forma más sencilla de usar **NFC Bridge App** es descargarla desde Google Pl
 Si prefieres compilarla tú mismo o hacer modificaciones:
 
 1. Clona este repositorio:
-   ```bash
+```bash
    git clone https://github.com/charlynovoa/nfcbridgeapp.git
-````
+```
 
 2. Abre el proyecto con **Android Studio**.
 3. Conecta un dispositivo Android o usa un emulador compatible con NFC.
@@ -66,7 +66,7 @@ UID:02534D1AC40000;TECHS:android.nfc.tech.IsoDep,android.nfc.tech.NfcA
 
 ## 📄 Licencia
 
-Este proyecto está licenciado bajo la [MIT License](LICENSE).
+Este proyecto está licenciado bajo la **[MIT License](LICENSE)**.
 Puedes usarlo, copiarlo y modificarlo libremente bajo los términos de esa licencia.
 
 ---
